@@ -1,0 +1,17 @@
+D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\Entities.deps.json
+D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\Entities.dll
+D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\Entities.pdb
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.dll
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\refint\Entities.dll
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.pdb
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\ref\Entities.dll
+D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\EntityContracts.dll
+D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\EntityContracts.pdb
+D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.csproj.CopyComplete

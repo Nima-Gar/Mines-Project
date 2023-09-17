@@ -1,0 +1,12 @@
+D:\Codes\C#\MinesApi\EntityContracts\bin\Debug\net7.0\EntityContracts.deps.json
+D:\Codes\C#\MinesApi\EntityContracts\bin\Debug\net7.0\EntityContracts.dll
+D:\Codes\C#\MinesApi\EntityContracts\bin\Debug\net7.0\EntityContracts.pdb
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.csproj.AssemblyReference.cache
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.AssemblyInfoInputs.cache
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.AssemblyInfo.cs
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.csproj.CoreCompileInputs.cache
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.dll
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\refint\EntityContracts.dll
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\EntityContracts.pdb
+D:\Codes\C#\MinesApi\EntityContracts\obj\Debug\net7.0\ref\EntityContracts.dll
