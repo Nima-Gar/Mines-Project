@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'BKoodak';
+  src: url('../fonts/BKOODB.eot') format('eot'),
+    url('../fonts/BKOODB.woff') format('woff'),
+    url('../fonts/BKOODB.TTF') format('truetype');
+}
+
+body {
+  background-color: rgba(219, 236, 251, 0.645);
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  color: rgb(64, 57, 106);
+}
+
+option:disabled {
+  display: none;
+}
+
+.form-group {
+  margin-bottom: 2%;
+}
+
+.form-check {
+  padding-top: 0.5%;
+  padding-left: 0 !important;
+}

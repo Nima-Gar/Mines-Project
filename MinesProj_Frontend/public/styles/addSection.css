@@ -1,0 +1,227 @@
+#addSection, #listSection {
+    padding: 0 2% !important;
+    font-size: 0.55rem;
+    direction: rtl;
+    text-align: right;
+  }
+
+  #addSection header button {
+    border: none;
+    background-color: transparent;
+  }
+
+  #addSection header i {
+    font-size: .8rem;
+    color: darkslateblue;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+  
+  #addMineForm {
+    border-radius: 0.6rem;
+    background-color: white;
+  }
+  
+  #addMineForm input::placeholder {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+  }
+  
+  #addMineForm select {
+    font-size: 0.6rem;
+    font-weight: bold;
+    border: none;
+    color: rgb(170, 170, 170);
+    background-color: rgb(245, 245, 245);
+  }
+  
+  #addMineForm option {
+    color: black;
+    background-color: aliceblue;
+  }
+  
+  #addMineForm option,
+  .form-section-title {
+    font-size: 0.7rem;
+  }
+  
+  .form-section-description {
+    font-size: 0.45rem;
+    color: rgb(166, 166, 166);
+  }
+  
+  @media (min-width: 992px) {
+    #addMineForm #textInputGroup > :not(:last-child) {
+      padding-left: 0;
+    }
+  
+    #addMineForm #textInputGroup > :last-child > input {
+      padding-left: 4.5%;
+      padding-right: 4.5%;
+    }
+  
+    #addMineForm #textInputGroup > :last-child > input::placeholder {
+      font-size: 0.55rem;
+    }
+  
+    #provinceSelect {
+      padding-right: 6%;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #addMineForm #textInputGroup > :nth-child(1) {
+      padding-left: 1%;
+    }
+    #addMineForm #textInputGroup > :nth-child(2) {
+      padding-right: 1%;
+    }
+  }
+  
+  #addMineForm button:first-of-type {
+    font-size: 0.55rem;
+  }
+  
+  @media (min-width: 800px) and (max-width: 923px) {
+    #addMineForm button:first-of-type {
+      font-size: 0.445rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 800px) {
+    #addMineForm button:first-of-type {
+      font-size: 0.42rem;
+    }
+  }
+  @media (max-width: 429px) {
+    #addMineForm button:first-of-type {
+      font-size: 0.4rem;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  #addMineForm button:first-of-type > i {
+    padding-left: 5%;
+  }
+  
+  #addMineForm input {
+    background-color: rgb(244, 244, 244);
+    border: none;
+  }
+  
+  @media (max-width: 425px) {
+    #addMineForm #statusSelect, #addMineForm #statusSelect option {
+      font-size: 0.63rem;
+    }
+  }
+  
+  #lastRow > :first-child {
+    padding-left: 3% !important;
+  }
+  #lastRow > :first-child > select {
+    padding-right: 7%;
+  }
+  
+  #modalCloseBtn {
+    font-size: 1.1rem !important;
+  }
+  
+  div:has(+ #phonenumsTable) {
+    padding-left: 2%;
+  }
+  
+  #phonenumsTable {
+    width: 71%;
+    background-color: rgba(240, 248, 255, 0.69);
+  }
+  
+  #phonenumsTable th {
+    padding-top: 2% !important;
+    padding-bottom: 2% !important;
+    border-top: none;
+  }
+  
+  #phonenumsTable td {
+    padding-top: 3.5% !important;
+    padding-bottom: 3.5% !important;
+  }
+  
+  #inputsGroup > :nth-child(odd) {
+    padding-left: 1%;
+  }
+  
+  #inputsGroup > :nth-child(even) {
+    padding-right: 1%;
+  }
+  
+  @media (min-width: 992px) {
+    #inputsGroup :not(:last-child) {
+      padding-left: 0;
+    }
+    #inputsGroup :not(:first-child) {
+      padding-right: 2%;
+    }
+  }
+
+  
+@media (min-width: 800px) {
+    #addMineForm .form-check-label {
+      padding-right: 15% !important;
+      padding-left: 0 !important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 800px) {
+    #addMineForm .form-check-label {
+      padding-right: 20% !important;
+      padding-left: 0 !important;
+    }
+  }
+  @media (max-width: 359px) {
+    #addMineForm .form-check-label {
+      padding-top: 7% !important;
+      font-size: 0.43rem;
+    }
+  }
+  
+  #addMineForm .btn-success{
+    font-size: .7rem !important;
+  }
+  
+  @media (max-width: 576px) {
+    #addMineForm .btn-success{
+      font-size: .6rem !important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #addMineForm .btn-success{
+      padding: 1.5% 15% !important;
+    }
+  }
+  
+  #addNumForm input {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 0.8rem;
+  }
+  #addNumForm input::placeholder {
+    font-size: 0.8rem;
+  }
+  
+  #addNumForm button {
+    font-size: 0.75rem;
+    margin-top: 3%;
+  }
+  
+  #addNumForm select {
+    margin-bottom: 0 !important;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 0.8rem;
+  }
+  
+  #addNumForm option {
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,133 @@
+#listSection {
+  font-family: 'BKoodak';
+  font-size: 1.7rem;
+}
+
+.infoSection {
+  border-radius: 1rem;
+  margin-right: 37%;
+  flex-basis: 26% !important;
+}
+@media (min-width: 1020px) {
+  .infoSection {
+    margin-left: 23% !important;
+  }
+}
+@media (max-width: 640px) and (min-width: 470px) {
+  .infoSection {
+    margin-right: 32.5%;
+    flex-basis: 35% !important;
+  }
+}
+@media (max-width: 470px) {
+  .infoSection {
+    margin-right: 27.5%;
+    flex-basis: 45% !important;
+  }
+}
+@media (max-width: 400px) {
+  .infoSection {
+    margin-right: 20%;
+    flex-basis: 60% !important;
+  }
+}
+
+.iconDiv {
+  background-color: rgba(217, 239, 248, 0.79);
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.infoSectionTitle {
+  font-size: 0.9rem;
+  font-weight: bolder;
+  margin-bottom: 0;
+}
+
+#minesTable {
+  font-size: 0.8rem;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: 'BKoodak', -apple-system, BlinkMacSystemFont, 'Segoe UI';
+}
+
+#minesTable table {
+  max-height: 500px;
+}
+
+#listSection button:not(.close):not(.chakra-button) {
+  font-size: 0.8rem;
+}
+
+#minesTable th,
+td {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+#minesTable th:not(:first-child) {
+  cursor: pointer;
+  position: relative;
+}
+
+#minesTable th#addressCol {
+  min-width: 200px;
+}
+
+.pageBtnsContainer {
+  list-style: none;
+}
+
+.pageBtn {
+  background-color: white;
+  border: solid 1px rgba(0, 103, 194, 0.645);
+  color: rgba(0, 103, 194, 0.645);
+}
+.pageBtn:hover {
+  color: white;
+  background-color: rgba(0, 92, 173, 0.645);
+  box-shadow: 0.2px 0.2px 1px black;
+}
+
+.pageBtn > a {
+  padding: 8px;
+}
+
+.activePageBtn {
+  background-color: rgba(0, 92, 173, 0.645);
+  border: none;
+  color: white;
+}
+.activePageBtn:hover {
+  background-color: rgba(0, 72, 134, 0.645);
+}
+
+.moveBtn {
+  margin-top: 2%;
+}
+
+.moveBtn > a {
+  font-size: 0.9rem;
+  color: rgba(0, 92, 173, 0.645);
+  text-decoration: none;
+}
+.moveBtn > a:hover {
+  color: rgba(0, 39, 73, 0.645);
+}
+
+.notFoundMessageContainer {
+  width: 104vw;
+}
+
+.notFoundMessageContainer p {
+  right: 32.5vw;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.chakra-popover__close-btn svg {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,20 @@
+// address: "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از"
+// area: 456
+// computerCode: "104"
+// county: "رفسنجان"
+// countyRefId: 16
+// degree: 2
+// employmentCommitment: true
+// geoghraphicPosition: " \"۴۰ '۵۶° ۲۹ طول شرقی \"۲۰ '۵۲° ۵۵ و عرض شمالی"
+// id: 5
+// investmentAmount: 500
+// mineType: "مس"
+// mineTypeRefId: 3
+// name: "مس سرچشمه"
+// ownershipType: "سهامی عام"
+// ownershipTypeRefId: 2
+// phoneNumbers: (3) [{type: 'موبایل', number: '09125431688'}, {…}, {…}]
+// province: "کرمان"
+// provinceRefId: 3
+// status: "فعال"
+// statusRefId: 1
