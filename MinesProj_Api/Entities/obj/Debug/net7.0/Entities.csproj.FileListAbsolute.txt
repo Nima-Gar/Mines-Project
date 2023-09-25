@@ -23,3 +23,12 @@ D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.csproj.C
 D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.dll
 D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\refint\Entities.dll
 D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.pdb
+D:\Codes\Mines_Project\MinesProj_Api\Entities\bin\Debug\net7.0\Entities.deps.json
+D:\Codes\Mines_Project\MinesProj_Api\Entities\bin\Debug\net7.0\Entities.runtimeconfig.json
+D:\Codes\Mines_Project\MinesProj_Api\Entities\bin\Debug\net7.0\Entities.dll
+D:\Codes\Mines_Project\MinesProj_Api\Entities\bin\Debug\net7.0\Entities.pdb
+D:\Codes\Mines_Project\MinesProj_Api\Entities\bin\Debug\net7.0\EntityContracts.dll
+D:\Codes\Mines_Project\MinesProj_Api\Entities\bin\Debug\net7.0\EntityContracts.pdb
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.csproj.CopyComplete
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\ref\Entities.dll
