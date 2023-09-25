@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WkSxtNTUJNIPSjStVKVAMvUCws5f75Tgd1pKqIa//N+hvCsQfo30xicTSCDICg3ao4ycqMR2m/kBUGf7Xyz0mg==",
+  "dgSpecHash": "LMIVIgeRvtD4baWECmfYnaKUk+omUqRmbLRvdBAYoHrbPaJx4jQOSjU/aO/QVwvPdcz2o0xrfHsF1YDvtL9wrQ==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\MinesApi\\MinesApi\\MinesApi.csproj",
+  "projectFilePath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SiBIRAN\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\SiBIRAN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

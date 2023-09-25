@@ -15,3 +15,11 @@ D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.genruntimeconfig.cache
 D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\EntityContracts.dll
 D:\Codes\C#\MinesApi\Entities\bin\Debug\net7.0\EntityContracts.pdb
 D:\Codes\C#\MinesApi\Entities\obj\Debug\net7.0\Entities.csproj.CopyComplete
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.AssemblyInfoInputs.cache
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.AssemblyInfo.cs
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.csproj.CoreCompileInputs.cache
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.dll
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\refint\Entities.dll
+D:\Codes\Mines_Project\MinesProj_Api\Entities\obj\Debug\net7.0\Entities.pdb

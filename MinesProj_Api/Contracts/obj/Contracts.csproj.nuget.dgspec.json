@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj": {}
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj": {
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj",
+        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj",
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\MinesApi\\Contracts\\obj\\",
+        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Codes\\C#\\MinesApi\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\Codes\\C#\\MinesApi\\Entities\\Entities.csproj"
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "D:\\Codes\\C#\\MinesApi\\Entities\\Entities.csproj": {
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\MinesApi\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\Codes\\C#\\MinesApi\\Entities\\Entities.csproj",
+        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\MinesApi\\Entities\\obj\\",
+        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -95,8 +95,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj": {
-                "projectPath": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj"
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj": {
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj",
+        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj",
         "projectName": "EntityContracts",
-        "projectPath": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj",
+        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj",
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\obj\\",
+        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

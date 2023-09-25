@@ -3238,11 +3238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\C#\\MinesApi\\Repository\\Repository.csproj",
+      "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\Codes\\C#\\MinesApi\\Repository\\Repository.csproj",
+      "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\C#\\MinesApi\\Repository\\obj\\",
+      "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3263,8 +3263,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj": {
-              "projectPath": "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj"
+            "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj": {
+              "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj"
             }
           }
         }

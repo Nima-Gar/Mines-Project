@@ -2,6 +2,7 @@
 using Contracts;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using MinesApi.Models.ViewModels;
 
 namespace MinesApi.Controllers
 {
@@ -12,12 +13,23 @@ namespace MinesApi.Controllers
         private readonly IMapper _mapper;
         private readonly IRepositoryWrapper _repository;
 
-        public RolesController(IMapper mapper, IRepositoryWrapper repository)
+        public RolesController(IRepositoryWrapper repository)
         {
-            _mapper = mapper;
             _repository = repository;
         }
 
+        // GET: api/Roles/GetRoles
+        [HttpGet(nameof(GetRoles))]
+        public async Task<ActionResult<IEnumerable<Role>>> GetRoles()
+        {
+            var roles = await _repository.RoleRepo.GetAll();
+            if (roles == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(roles);
+        }
 
         // GET: api/Roles/GetRole?id=5
         [HttpGet(nameof(GetRole))]

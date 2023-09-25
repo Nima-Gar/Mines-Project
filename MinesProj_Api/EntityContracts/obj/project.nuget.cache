@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O9CjRcP47ZjGQhEwV5c50brG8tX7+ibtUwqLnl3woFQV8f8DSGFnWbnwAB4YWVi8OusR+DBJlHaMB93sCMY7uA==",
+  "dgSpecHash": "3bzFpA6vzay+AMH0xJ1Wt3NT3d5lQY48zASNLbli/9i13Zx2PwU5hdIHkbFR6uifsGtOguwUN0USnPHi2Z4HXw==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj",
+  "projectFilePath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjWfptrOPaZDWulA83CFuagaHp5dwHy7k+1Dr5tE84icLSROOoQlBWCZxaJRmVDcUqJygwtGQA72DcoxErH9eQ==",
+  "dgSpecHash": "HeuKZZCGYFjg7WSEW5/z0/ziR4CfiA0pIokL6L06EF9ruEjRT7tpfaDsk70LVXNUZm/YLLHmctVFk5+q8nRUnA==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\MinesApi\\Contracts\\Contracts.csproj",
+  "projectFilePath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SiBIRAN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SiBIRAN\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

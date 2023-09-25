@@ -1,23 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using Contracts;
 using Entities.Models.ViewModels;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using MinesApi.Models;
 using MinesApi.Models.ViewModels;
-using Repository;
 
 namespace MinesApi.Controllers
 {
 
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize(Roles = "Admin")]
     public class MinesController : ControllerBase
     {
         private readonly IMapper _mapper;
@@ -43,7 +37,7 @@ namespace MinesApi.Controllers
                 return NotFound();
             }
 
-            return mine;
+            return Ok(mine);
         }
 
         // GET: api/Mines/GetDetailedMines
@@ -56,7 +50,7 @@ namespace MinesApi.Controllers
                 return NotFound();
             }
 
-            return new(mines);
+            return Ok(mines);
         }
 
         // GET: api/Mines/GetDetailedMine?id=5
@@ -71,13 +65,13 @@ namespace MinesApi.Controllers
                 return NotFound();
             }
 
-            return mine;
+            return Ok(mine);
         }
 
 
         //POST: api/Mines/GetFilteredDetailedMines
         [HttpPost(nameof(GetFilteredDetailedMines))]
-        public async Task<ActionResult<IEnumerable<MineViewModel>>> GetFilteredDetailedMines(Filters filters)
+        public async Task<ActionResult<IEnumerable<MineViewModel>>> GetFilteredDetailedMines([FromBody] Filters filters)
         {
             var mines = await _repository.MineRepo.GetFilteredDetailedMines(filters);
             if (mines == null)
@@ -85,7 +79,7 @@ namespace MinesApi.Controllers
                 return NotFound();
             }
 
-            return new(mines);
+            return Ok(mines);
         }
 
 

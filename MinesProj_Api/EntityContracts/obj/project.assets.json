@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj",
+      "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj",
       "projectName": "EntityContracts",
-      "projectPath": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\EntityContracts.csproj",
+      "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\EntityContracts.csproj",
       "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
-      "outputPath": "D:\\Codes\\C#\\MinesApi\\EntityContracts\\obj\\",
+      "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -267,3 +267,13 @@ D:\Codes\C#\MinesApi\MinesApi\bin\Debug\net7.0\Repository.pdb
 D:\Codes\C#\MinesApi\MinesApi\bin\Debug\net7.0\Contracts.pdb
 D:\Codes\C#\MinesApi\MinesApi\bin\Debug\net7.0\EntityContracts.pdb
 D:\Codes\C#\MinesApi\MinesApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.csproj.AssemblyReference.cache
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.AssemblyInfoInputs.cache
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.AssemblyInfo.cs
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.csproj.CoreCompileInputs.cache
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\refint\MinesApi.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qUY1VZRjDr5rZfjIHxOfy0ypIK7FwnS/sjcgrMk9otDtbe1tYfo1V0Qh4vPQyRnqhfGmU/3z/qODGRjVJqSZfw==",
+  "dgSpecHash": "Jaj/ren41B8iajdZgXX6haaJMJz6wBZ4ZHka1rxJUBU1UhHYJmPMUWW92y1aXUfGOenUryAFAa0/rk3zTl064A==",
   "success": true,
-  "projectFilePath": "D:\\Codes\\C#\\MinesApi\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SiBIRAN\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SiBIRAN\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

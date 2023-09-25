@@ -23,6 +23,7 @@ namespace MinesApi.Controllers
             _config = config;
         }
 
+        // POST: api/login
         [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Login([FromBody] LoginCredential loginCredential)
@@ -52,8 +53,10 @@ namespace MinesApi.Controllers
 
             var claims = new[]
             {
-                new Claim(ClaimTypes.PrimarySid, user.Id.ToString()),
-                new Claim(ClaimTypes.NameIdentifier, user.Username),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.Username),
+                new Claim(ClaimTypes.GivenName, user.GivenName),
+                new Claim(ClaimTypes.Surname, user.Surname),
                 new Claim(ClaimTypes.Role, role.Title)
             };
 
