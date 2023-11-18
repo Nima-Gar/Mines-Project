@@ -23,7 +23,6 @@ namespace MinesApi.Controllers
             _config = config;
         }
 
-        // POST: api/login
         [AllowAnonymous]
         [HttpPost]
         public async Task<ActionResult> Login([FromBody] LoginCredential loginCredential)

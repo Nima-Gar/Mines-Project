@@ -272,7 +272,6 @@ D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.Generate
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.AssemblyInfoInputs.cache
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.AssemblyInfo.cs
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.csproj.CoreCompileInputs.cache
-D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.MvcApplicationPartsAssemblyInfo.cs
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.MvcApplicationPartsAssemblyInfo.cache
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.dll
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\refint\MinesApi.dll
@@ -536,3 +535,16 @@ D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\scopedcss\bundle\
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.csproj.CopyComplete
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.genruntimeconfig.cache
 D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\ref\MinesApi.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Pipelines.Sockets.Unofficial.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\StackExchange.Redis.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Services.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Services.pdb
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\MediatR.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Features.dll
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\bin\Debug\net7.0\Features.pdb
+D:\Codes\Mines_Project\MinesProj_Api\MinesApi\obj\Debug\net7.0\MinesApi.MvcApplicationPartsAssemblyInfo.cs

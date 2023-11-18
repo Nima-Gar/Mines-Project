@@ -1,7 +1,6 @@
 ﻿using Contracts;
 using Entities;
 using Entities.Models;
-using MinesApi.Models.ViewModels;
 
 namespace Repository
 {

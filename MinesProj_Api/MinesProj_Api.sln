@@ -16,6 +16,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityContracts", "EntityContracts\EntityContracts.csproj", "{01D1A2EF-5A2C-4D06-A930-6492C5EED2FF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{C3FE224B-DE7F-49C1-8C43-9A0BD27BE65C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features", "Features\Features.csproj", "{854E4F22-40E6-4947-8E9E-690935C37002}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +46,14 @@ Global
 		{01D1A2EF-5A2C-4D06-A930-6492C5EED2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01D1A2EF-5A2C-4D06-A930-6492C5EED2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01D1A2EF-5A2C-4D06-A930-6492C5EED2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FE224B-DE7F-49C1-8C43-9A0BD27BE65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FE224B-DE7F-49C1-8C43-9A0BD27BE65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FE224B-DE7F-49C1-8C43-9A0BD27BE65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FE224B-DE7F-49C1-8C43-9A0BD27BE65C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854E4F22-40E6-4947-8E9E-690935C37002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854E4F22-40E6-4947-8E9E-690935C37002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854E4F22-40E6-4947-8E9E-690935C37002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854E4F22-40E6-4947-8E9E-690935C37002}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

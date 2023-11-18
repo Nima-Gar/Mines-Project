@@ -21,10 +21,8 @@ namespace Repository
         {
             get
             {
-                if (_mineRepo == null)
-                {
-                    _mineRepo = new MineRepository(_minesContext);
-                }
+                // assign if it is null
+                _mineRepo ??= new MineRepository(_minesContext);
                 return _mineRepo;
             }
         }
@@ -33,10 +31,7 @@ namespace Repository
         {
             get
             {
-                if (_roleRepo == null)
-                {
-                    _roleRepo = new RoleRepository(_accountsContext);
-                }
+                _roleRepo ??= new RoleRepository(_accountsContext);
                 return _roleRepo;
             }
         }
@@ -45,10 +40,7 @@ namespace Repository
         {
             get
             {
-                if (_userRepo == null)
-                {
-                    _userRepo = new UserRepository(_accountsContext);
-                }
+                _userRepo ??= new UserRepository(_accountsContext);
                 return _userRepo;
             }
         }

@@ -2,7 +2,6 @@
 using Contracts;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
-using MinesApi.Models.ViewModels;
 
 namespace MinesApi.Controllers
 {

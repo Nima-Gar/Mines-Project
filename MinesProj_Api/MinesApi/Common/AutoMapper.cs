@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using MinesApi.Models.ViewModels;
 using MinesApi.Models;
 using Entities.Models;
 using Entities.Models.ViewModels;

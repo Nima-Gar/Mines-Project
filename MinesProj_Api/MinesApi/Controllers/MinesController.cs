@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
 using Contracts;
 using Entities.Models.ViewModels;
+using Features.Mines.Commands;
+using Features.Mines.Queries;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MinesApi.Models;
-using MinesApi.Models.ViewModels;
+using static NuGet.Packaging.PackagingConstants;
 
 namespace MinesApi.Controllers
 {
@@ -15,16 +18,25 @@ namespace MinesApi.Controllers
     public class MinesController : ControllerBase
     {
         private readonly IMapper _mapper;
+        private readonly IMediator _mediator;
         private readonly IRepositoryWrapper _repository;
 
 
-        public MinesController(IRepositoryWrapper repository, IMapper mapper)
+        public MinesController(IRepositoryWrapper repository, IMapper mapper, IMediator mediator)
         {
             _mapper = mapper;
+            _mediator = mediator;
             _repository = repository;
         }
 
+        // GET: api/Mines/GetMines
+        [HttpGet(nameof(GetMines))]
+        public async Task<ActionResult<IEnumerable<Mine>>> GetMines()
+        {
+            var mines = await _mediator.Send(new GetMinesRequest() { });
 
+            return mines == null ? NotFound() : Ok(mines);
+        }
 
         // GET: api/Mines/GetMine?id=5
         [HttpGet(nameof(GetMine))]
@@ -73,7 +85,7 @@ namespace MinesApi.Controllers
         [HttpPost(nameof(GetFilteredDetailedMines))]
         public async Task<ActionResult<IEnumerable<MineViewModel>>> GetFilteredDetailedMines([FromBody] Filters filters)
         {
-            var mines = await _repository.MineRepo.GetFilteredDetailedMines(filters);
+            var mines = await _mediator.Send(new GetFilteredDetailedMinesRequest() { Filters = filters });
             if (mines == null)
             {
                 return NotFound();
@@ -81,7 +93,6 @@ namespace MinesApi.Controllers
 
             return Ok(mines);
         }
-
 
 
         // PUT: api/Mines/PutMine
@@ -101,16 +112,15 @@ namespace MinesApi.Controllers
         }
 
         // POST: api/Mines/PostMine
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost(nameof(PostMine))]
-        public async Task<ActionResult<Mine>> PostMine(MineViewModel mine)
+        public async Task<ActionResult<Mine>> PostMine(MineViewModel mineDto)
         {
+            Mine createdMine = await _mediator.Send(new CreateMineRequest() { MineDto = mineDto });
 
-            Mine mineData = _mapper.Map<Mine>(mine);
+            if (createdMine != null)
+                return Ok(createdMine);
 
-            await _repository.MineRepo.Add(mineData);
-
-            return CreatedAtAction("GetMine", new { id = mineData.Id }, mineData);
+            return Conflict("the parent resource does not exist for you to post to!");
         }
 
         // DELETE: api/Mines/DeleteMine

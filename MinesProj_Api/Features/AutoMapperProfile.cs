@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
-using MinesApi.Models.ViewModels;
+using Entities.Models.ViewModels;
 using MinesApi.Models;
 using Entities.Models;
-using Entities.Models.ViewModels;
 
-namespace MinesApi
+namespace Features
 {
-    public class AutoMapper : Profile
+    public class AutoMapperProfile : Profile
     {
-        public AutoMapper() {
+        public AutoMapperProfile() {
             CreateMap<Mine, MineViewModel>();
             CreateMap<Mine, MineViewModel>().ReverseMap();
             CreateMap<User, UserViewModel>();

@@ -3232,8 +3232,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\SiBIRAN\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\SiBIRAN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3244,12 +3243,8 @@
       "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
       "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

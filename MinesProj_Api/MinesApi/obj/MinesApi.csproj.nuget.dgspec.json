@@ -13,12 +13,8 @@
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
         "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,12 +72,8 @@
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
         "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,12 +147,8 @@
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
         "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\EntityContracts\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -205,21 +193,17 @@
         }
       }
     },
-    "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj": {
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\Features\\Features.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj",
-        "projectName": "MinesApi",
-        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj",
+        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Features\\Features.csproj",
+        "projectName": "Features",
+        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Features\\Features.csproj",
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
-        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\obj\\",
+        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Features\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -227,13 +211,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Entities\\Entities.csproj"
+              },
               "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\Repository.csproj": {
                 "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\Repository.csproj"
               }
@@ -258,6 +244,82 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj",
+        "projectName": "MinesApi",
+        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\MinesApi.csproj",
+        "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\MinesApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\Features\\Features.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Features\\Features.csproj"
+              },
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\Repository.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\Repository.csproj"
+              },
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\Services\\Services.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[7.0.11, )"
@@ -288,7 +350,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -331,12 +393,8 @@
         "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
         "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -365,6 +423,75 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Codes\\Mines_Project\\MinesProj_Api\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\SiBIRAN\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SiBIRAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\Codes\\Mines_Project\\MinesProj_Api\\Contracts\\Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.122, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

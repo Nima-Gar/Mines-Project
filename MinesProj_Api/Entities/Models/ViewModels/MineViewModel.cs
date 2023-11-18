@@ -1,7 +1,4 @@
-﻿using Entities.Models.ViewModels;
-using MinesApi.Models;
-
-namespace MinesApi.Models.ViewModels
+﻿namespace Entities.Models.ViewModels
 {
     public class MineViewModel
     {
